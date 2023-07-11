@@ -1,0 +1,54 @@
+﻿<Window x:Class="DrawingMitshubisiLogo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrawingMitshubisiLogo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+
+    <DockPanel>
+        <Canvas>
+        <Rectangle Canvas.Top="115" Canvas.Left="335" Width="81" Height="60" Fill="Red" Stroke="Blue" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-73.702"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.LayoutTransform>
+                <SkewTransform AngleX="-45" AngleY="15" ></SkewTransform>
+            </Rectangle.LayoutTransform>
+        </Rectangle>
+        <Rectangle Canvas.Top="167" Canvas.Left="402" Width="81" Height="60" Fill="Red" Stroke="Blue" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.808"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.LayoutTransform>
+                <SkewTransform AngleX="-45" AngleY="15" />
+            </Rectangle.LayoutTransform>
+        </Rectangle>
+        <Rectangle Canvas.Top="194" Canvas.Left="257" Width="81" Height="60" Fill="Red" Stroke="Blue" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-14.479"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.LayoutTransform>
+                <SkewTransform AngleX="-45" AngleY="15" />
+            </Rectangle.LayoutTransform>
+        </Rectangle>
+    </Canvas>
+    </DockPanel>
+</Window>
